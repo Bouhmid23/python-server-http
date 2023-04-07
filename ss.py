@@ -12,7 +12,7 @@ async def handle_login(data, connection):
         print('login failed')
     else:
         #connection details
-        users[data['name']] = connection
+        users[data["name"]] = connection
         connection.name = data["name"]
         connection.otherName = None
         # store the connection name in the userlist
