@@ -1,3 +1,4 @@
+# script main
 import json
 import websockets
 import asyncio
